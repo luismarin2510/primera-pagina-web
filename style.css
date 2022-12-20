@@ -1,15 +1,18 @@
 
 body{
 
-    background-color: silver;
+    background-color: whitesmoke;
 }
 
 h1{
     text-align: center;
-    background-color: silver;
+    
     
 }
 p{
     text-align: center;
    
+}
+em strong{
+    color: red;
 }
