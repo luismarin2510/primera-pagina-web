@@ -24,3 +24,6 @@ em strong{
     height: 100%;
     padding: 10px;
 }
+.items {
+    font-style: italic
+}
