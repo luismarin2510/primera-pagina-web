@@ -1,17 +1,15 @@
 
 body{
-
-    background-color: whitesmoke;
+    background-color: silver;
 }
-
+.principal{
+    background-color: rgb(235, 235, 235);
+}
 h1{
     text-align: center;
-    
-    
 }
 p{
     text-align: center;
-   
 }
 em strong{
     color: red;
@@ -26,4 +24,10 @@ em strong{
 }
 .items {
     font-style: italic
+}
+.diferenciales{
+    background-color: aqua;
+}
+h2{
+    text-align: center;
 }
