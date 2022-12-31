@@ -3,14 +3,14 @@ header{
 
 }
 nav li{
-    display: inline;
-    margin: 0 0 0 20px;
+    display: inline; /* cambia lista vertical a horizontal */
+    margin: 0 0 0 20px; /* margen: superior 0, inferior 0, derecha 0, izquierda 20 */
 
 }
 nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+    text-transform: uppercase; /* pasa de minus a mayus   */
+    color: black; /* texto negro  */
+    font-weight: bold; /* cambia a negrita  */
+    font-size: 22px; /* texto a 22 pixel */
+    text-decoration: none; /* quita el subrayado del vinculo  */
 }
