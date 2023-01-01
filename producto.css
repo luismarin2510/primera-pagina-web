@@ -42,6 +42,10 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box; /* crea una caja con una parametro fijo  */
+    border-color: black; /* le da color al borde */
+    border-width: 2px; /* de ancho al borde  */
+    border-style: solid; /* le da concentracion solida al border   */
+    border-radius: 20px; /* le da redondeo al borde */
 }
 .producto h2 {
     font-size: 30px;
