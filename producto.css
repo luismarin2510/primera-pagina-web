@@ -27,3 +27,24 @@ nav a {
     font-size: 22px; /* texto a 22 pixel */
     text-decoration: none; /* quita el subrayado del vinculo  */
 }
+.producto{
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.producto li{
+    display: inline-block;
+    text-align: center; /* alinea texto al centro  */
+    width: 30%; /* pocupar un 1/3 del espacio */
+    vertical-align: top;
+
+
+}
+.producto h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.producto 
