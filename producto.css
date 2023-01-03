@@ -27,6 +27,12 @@ nav a {
     font-size: 22px; /* texto a 22 pixel */
     text-decoration: none; /* quita el subrayado del vinculo  */
 }
+nav a:hover{ /* a: es la etiqueta  hover captura el movimiento del mouse */
+ color: #c78c19;
+ text-decoration:underline;
+}
+
+
 .producto{
 
     width: 940px;
@@ -47,10 +53,20 @@ nav a {
     border-style: solid; /* le da concentracion solida al border   */
     border-radius: 20px; /* le da redondeo al borde */
 }
+.producto li:hover{ /* a: es la etiqueta  hover captura el movimiento del mouse */
+    border-color: green;
+}
+.producto li:active{  /* active captura el click del mouse */
+    border-color: red;
+}
+
 .producto h2 {
     font-size: 30px;
     font-weight: bold;
 
+}
+.producto li:hover h2{ /* cambia el tamaño del h2 al pasar pr la lista  */
+    font-size: 33px;
 }
 .descripcion {
     font-size: 18px;
