@@ -82,3 +82,8 @@ footer{
     background: url(imagenes/bg.jpg);
     padding: 40px;
 }
+.copy{
+    font-size: 13px;
+    color: white;
+    margin-top: 20px;
+}
