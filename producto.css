@@ -77,3 +77,8 @@ nav a:hover{ /* a: es la etiqueta  hover captura el movimiento del mouse */
     font-weight: bold;
     margin-top: 10px;
 }
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
