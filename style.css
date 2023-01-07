@@ -1,45 +1,89 @@
-
-.titulo{
-    padding-left: 30px;
-}
-.principal{
-    background-color: rgb(235, 235, 235);
-    padding: 20px;
+header{
+    background-color: silver;
+    padding: 20px 0;
 
 }
-.titulocentralizado{
-    text-align: center;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0  auto ;
+
 }
-p{
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    
 }
-em strong{
-    color: red;
+nav li{
+    display: inline; /* cambia lista vertical a horizontal */
+    margin: 0 0 0 20px; /* margen: superior 0, inferior 0, derecha 0, izquierda 20 */
+
 }
-#mision {
-    font-size: 20px; 
+nav a {
+    text-transform: uppercase; /* pasa de minus a mayus   */
+    color: black; /* texto negro  */
+    font-weight: bold; /* cambia a negrita  */
+    font-size: 22px; /* texto a 22 pixel */
+    text-decoration: none; /* quita el subrayado del vinculo  */
 }
-#banner{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+nav a:hover{ /* a: es la etiqueta  hover captura el movimiento del mouse */
+ color: #c78c19;
+ text-decoration:underline;
 }
-.items {
-    font-style: italic
+
+
+.producto{
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
 }
-.diferenciales{
-    background-color: aqua;
-    padding: 30px;
-}
-ul{
+.producto li{
     display: inline-block;
+    text-align: center; /* alinea texto al centro  */
+    width: 30%; /* pocupar un 1/3 del espacio */
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /* crea una caja con una parametro fijo  */
+    border-color: black; /* le da color al borde */
+    border-width: 2px; /* de ancho al borde  */
+    border-style: solid; /* le da concentracion solida al border   */
+    border-radius: 20px; /* le da redondeo al borde */
+}
+.producto li:hover{ /* a: es la etiqueta  hover captura el movimiento del mouse */
+    border-color: green;
+}
+.producto li:active{  /* active captura el click del mouse */
+    border-color: red;
+}
+
+.producto h2 {
+    font-size: 30px;
+    font-weight: bold;
 
 }
-.imagendiferencial{
-    width: 50%;
-   
+.producto li:hover h2{ /* cambia el tamaño del h2 al pasar pr la lista  */
+    font-size: 33px;
+}
+.descripcion {
+    font-size: 18px;
 
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copy{
+    font-size: 13px;
+    color: white;
+    margin-top: 20px;
 }
