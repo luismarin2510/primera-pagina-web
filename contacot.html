@@ -28,8 +28,8 @@
             <label for="nombreapellido">Nombre y Apellido </label>
             <input type="text" id="nombreapellido" class="padre">
             <label for="correo">Correo</label>
-            <input type="text" id="correo" class="padre">
-            <label for="telefono">Telefono</label>
+            <input type="mail" id="correo" class="padre">
+            <label for="tel">Telefono</label>
             <input type="text" id="telefono" class="padre">
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="70" rows="10"></textarea> <!--permite crear una caja con 70 columnas y 10 filas de texto -->
@@ -43,10 +43,19 @@
                 <label for="mail"><input type="radio" id="mail" value="Email" name="contacto">Email</label>  
                 <label for="tel"><input type="radio" id="tel" value="Telefono" name="contacto">Telefono</label> 
                 <label for="what"><input type="radio" id="what" value="Whatsapp" name="contacto">Whatsapp</label>
-                 
-                
             </div>
-            <label><input type="checkbox">Le gustaria recibir novedades?</label>
+
+            <div>
+                <p>¿En cual horario prefiere ser atendido?</p>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </div>
+            
+
+            <label class="chackbox"><input type="checkbox">Le gustaria recibir novedades?</label>
             <input type="submit" value="Enviar Formulario ">
         </form>
     </main>

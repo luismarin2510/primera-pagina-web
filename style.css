@@ -94,7 +94,7 @@ footer{
 form{
     margin: 40px 0; /* hace que el margen del formulario tome 40px de margen superior e infeior  */
 }
-form label {
+form label, form p{
     display: block; /* organiza los elementos en bloques */
     font-size: 20px; /* crece los textos a 20px */
     margin: 0 0 10px ;
@@ -104,4 +104,7 @@ form label {
     margin: 0 0 20px ; /* hace que tomen espacio entre ellas 20px hacia abajo */
     padding: 8px 10px; /* hace que la cajita se vuelva mas ancha */
     width: 50%; /* hace que la caja tome el ancho de los 940px ya definidos */
+}
+.chackbox{
+    margin: 20px 0;
 }
