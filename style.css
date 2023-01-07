@@ -102,6 +102,6 @@ form label {
 form input{
     display: block; /* organiza los elementos en bloques */
     margin: 0 0 20px ; /* hace que tomen espacio entre ellas 20px hacia abajo */
-    padding: 8px 40px; /* hace que la cajita se vuelva mas ancha */
+    padding: 8px 10px; /* hace que la cajita se vuelva mas ancha */
     width: 50%; /* hace que la caja tome el ancho de los 940px ya definidos */
 }
