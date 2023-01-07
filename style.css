@@ -99,7 +99,7 @@ form label {
     font-size: 20px; /* crece los textos a 20px */
     margin: 0 0 10px ;
 }
-form input, form textarea{
+.padre{
     display: block; /* organiza los elementos en bloques */
     margin: 0 0 20px ; /* hace que tomen espacio entre ellas 20px hacia abajo */
     padding: 8px 10px; /* hace que la cajita se vuelva mas ancha */
