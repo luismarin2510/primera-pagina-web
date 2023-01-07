@@ -35,12 +35,16 @@
             <textarea id="mensaje" cols="70" rows="10"></textarea> <!--permite crear una caja con 70 columnas y 10 filas de texto -->
             <div>
                 <p>¿Como gustaria que lo contataramos? </p>
-                <label for="mail">Email</label>  <!-- radio indica la bolita para seleccionar -->
-                <input type="radio" id="mail" value="Email" name="contacto"> <!-- value determina el nombre a mostar -->
-                <label for="tel">Telefono</label>  <!-- name a que falia pertenece si varios iconos de seleccion tienen la misma  -->
-                <input type="radio" id="tel" value="Telefono" name="contacto"> <!-- familia entonces actuara seleccionando solo  -->
-                <label for="what">Whatsapp</label> <!-- a uno de los iconos de la misma familia  -->
-                <input type="radio" id="what" value="Whatsapp" name="contacto">
+                 <!-- radio indica la bolita para seleccionar -->
+                 <!-- value determina el nombre a mostar -->
+                 <!-- name a que falia pertenece si varios iconos de seleccion tienen la misma  -->
+                 <!-- familia entonces actuara seleccionando solo  -->
+                 <!-- a uno de los iconos de la misma familia  -->
+                <label for="mail"><input type="radio" id="mail" value="Email" name="contacto">Email</label>  
+                <label for="tel"><input type="radio" id="tel" value="Telefono" name="contacto">Telefono</label> 
+                <label for="what"><input type="radio" id="what" value="Whatsapp" name="contacto">Whatsapp</label>
+                 
+                
             </div>
             <label><input type="checkbox">Le gustaria recibir novedades?</label>
             <input type="submit" value="Enviar Formulario ">
