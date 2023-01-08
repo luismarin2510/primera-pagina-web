@@ -117,11 +117,13 @@ form label, form legend{
     background: orange;
     border-radius: 5px;
     border: none;
-    transition: 1s background; /* permite cambiar una cosa a otra en esta ocasion el background en 1 segundo*/
+    /* transition: 1s background; /*permite cambiar una cosa a otra en esta ocasion el background en 1 segundo* */
+    transition: 1s all; /* la transicion 1 segundo a todadas la propiedades (all)*/
     cursor: pointer;/* cambia el cursor de flecha a manita */
 }
 .submit:hover{ /* detenciion de movimiento del cursor sobre el boton */
-    font-size: 20px;
     background: green;
+    transform: scale(1.1); /* permite transformar todas las propiedades en escala 1.1 veces */
+    /*transform: rotate () es una funcion que se usa para rotar el elemento  */
     
 }
