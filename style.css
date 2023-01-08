@@ -94,7 +94,7 @@ footer{
 form{
     margin: 40px 0; /* hace que el margen del formulario tome 40px de margen superior e infeior  */
 }
-form label, form p{
+form label, form legend{
     display: block; /* organiza los elementos en bloques */
     font-size: 20px; /* crece los textos a 20px */
     margin: 0 0 10px ;

@@ -33,8 +33,8 @@
             <input type="text" id="telefono" class="padre" required placeholder="(+57)xxx xxx xx xx">
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="70" rows="10" required></textarea> 
-            <div>
-                <p>¿Como gustaria que lo contataramos? </p>
+            <fieldset>
+                <legend>¿Como gustaria que lo contataramos? </legend>
                  <!--permite crear una caja con 70 columnas y 10 filas de texto -->
                  <!-- required permite mostrar que los campos son obligatorios -->
                  <!-- placeholder permite mostrar el text en fondo gris  -->
@@ -46,16 +46,16 @@
                 <label for="mail"><input type="radio" id="mail" value="Email" name="contacto">Email</label>  
                 <label for="tel"><input type="radio" id="tel" value="Telefono" name="contacto">Telefono</label> 
                 <label for="what"><input type="radio" id="what" value="Whatsapp" name="contacto" checked>Whatsapp</label>
-            </div>
+            </fieldset>
 
-            <div>
-                <p>¿En cual horario prefiere ser atendido?</p>
+            <fieldset>
+                <legend>¿En cual horario prefiere ser atendido?</legend>
                 <select name="" id="">
                     <option value="">Mañana</option>
                     <option value="">Tarde</option>
                     <option value="">Noche</option>
                 </select>
-            </div>
+            </fieldset>
             
 
             <label class="chackbox"><input type="checkbox">Le gustaria recibir novedades?</label>
