@@ -108,3 +108,20 @@ form label, form legend{
 .chackbox{
     margin: 20px 0;
 }
+.submit{
+    width: 40%;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    border: none;
+    transition: 1s background; /* permite cambiar una cosa a otra en esta ocasion el background en 1 segundo*/
+    cursor: pointer;/* cambia el cursor de flecha a manita */
+}
+.submit:hover{ /* detenciion de movimiento del cursor sobre el boton */
+    font-size: 20px;
+    background: green;
+    
+}
