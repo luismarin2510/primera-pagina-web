@@ -26,15 +26,18 @@
     <main class="contact">
         <form action="">
             <label for="nombreapellido">Nombre y Apellido </label>
-            <input type="text" id="nombreapellido" class="padre">
+            <input type="text" id="nombreapellido" class="padre" required>
             <label for="correo">Correo</label>
-            <input type="mail" id="correo" class="padre">
+            <input type="email" id="correo" class="padre" required placeholder="mail@email.com">
             <label for="tel">Telefono</label>
-            <input type="text" id="telefono" class="padre">
+            <input type="text" id="telefono" class="padre" required placeholder="(+57)xxx xxx xx xx">
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" cols="70" rows="10"></textarea> <!--permite crear una caja con 70 columnas y 10 filas de texto -->
+            <textarea id="mensaje" cols="70" rows="10" required></textarea> 
             <div>
                 <p>¿Como gustaria que lo contataramos? </p>
+                 <!--permite crear una caja con 70 columnas y 10 filas de texto -->
+                 <!-- required permite mostrar que los campos son obligatorios -->
+                 <!-- placeholder permite mostrar el text en fondo gris  -->
                  <!-- radio indica la bolita para seleccionar -->
                  <!-- value determina el nombre a mostar -->
                  <!-- name a que falia pertenece si varios iconos de seleccion tienen la misma  -->
@@ -42,7 +45,7 @@
                  <!-- a uno de los iconos de la misma familia  -->
                 <label for="mail"><input type="radio" id="mail" value="Email" name="contacto">Email</label>  
                 <label for="tel"><input type="radio" id="tel" value="Telefono" name="contacto">Telefono</label> 
-                <label for="what"><input type="radio" id="what" value="Whatsapp" name="contacto">Whatsapp</label>
+                <label for="what"><input type="radio" id="what" value="Whatsapp" name="contacto" checked>Whatsapp</label>
             </div>
 
             <div>
