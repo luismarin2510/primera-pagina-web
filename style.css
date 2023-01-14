@@ -139,6 +139,10 @@ td,th{
     height: 100%;
     padding: 10px;
 }
+.principal{
+    padding: 3em;
+    background: #fefefe;
+}
 .tituloprincipal{
     text-align: center;
     font-size: 2em; /*el uso de em es multiplicar la fuente por defecro en este caso 2 veces */
@@ -161,19 +165,43 @@ td,th{
 }
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888);
+/* lienar y radial gradient se pueden usar angulos porcentajes antes de cada color 
+osea 45 deg back y usar varios colores --> consultar documentacion  */
 }
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
 }
+.mapacontenido{
+    width: 940px;
+    margin: 0 auto;
+
+}
+.diferenciales{
+    padding: 3em;
+    background: #888888;
+}
 .contenido{
-    
+    width: 640px;
+    margin: 0 auto;
+}
+.listadiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+.items :first-child{
+    font-weight: bold;
 }
 .diferenciales{
     padding: 30px;
 }
 .imagendiferencial{
-    width: 40%;
+    width: 60%;
 }
 .video{
     width: 560px;
