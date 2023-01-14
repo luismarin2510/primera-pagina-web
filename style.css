@@ -191,13 +191,16 @@ osea 45 deg back y usar varios colores --> consultar documentacion  */
     display: inline-block;
     vertical-align: top;
 }
+/* main > p indica que tomes el primer parrafo hijo del main y no a sus nietos  */
+/* img + p  selecciona el parrafo que esta a lka mismo nivel de la imagen  */
+/* img ~ p indica que la seleccion sea todo el parrafo  */
 .items{
     line-height: 1.5;
 }
-.items::before{
+.items:before{ /* seduo elemento idicndo antes del item coloca lo que yo contengo */
     content: "•";
 }
-.items:first-child{
+.items:first-child{ /* indica que el primer elemento que contiene */
     font-weight: bold;
 }
 .diferenciales{
