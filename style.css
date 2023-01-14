@@ -148,7 +148,9 @@ td,th{
     font-size: 2em; /*el uso de em es multiplicar la fuente por defecro en este caso 2 veces */
     margin: 0 0 1em 0;
     clear: left; /* refiere a que cualquier propiedad de otra clase que este a la izquierda no se aplique */
+    color: black;
 }
+
 .principal p {
     margin: 0 0 1em ;
 }
@@ -208,6 +210,10 @@ osea 45 deg back y usar varios colores --> consultar documentacion  */
 }
 .imagendiferencial{
     width: 60%;
+    transition: 400ms;
+}
+.imagendiferencial:hover{
+    opacity: 50%;
 }
 .video{
     width: 560px;
