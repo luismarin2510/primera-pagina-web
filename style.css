@@ -224,6 +224,24 @@ osea 45 deg back y usar varios colores --> consultar documentacion  */
     margin: 1em auto;
 }
 
-@media screen and (max-with: 480px){
+@media screen and (max-width: 480px){
+    
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        margin: 10px;
+    }
+    li{
+        margin: 8px;
+    }
+    .caja, .principal, .mapacontenido, .contenido, .video {
+        width: auto;
+    }
+    .listadiferenciales, .imagendiferencial{
+        width: 100%;
+        margin: 10px;
+    }
     
 }
