@@ -211,6 +211,10 @@ osea 45 deg back y usar varios colores --> consultar documentacion  */
 .imagendiferencial{
     width: 60%;
     transition: 400ms;
+    box-shadow: 10px 10px 25px 5px black; 
+    /* primeras dos cifras ancho de los bordes tercera ancho de difuminacion cuarta expancion de la difuminacion*/
+    /* se pueden colocar mas sombras solo adicionando , al mismo parametro la opcion insert despues de : indica
+    una sombra hacia el interior  */
 }
 .imagendiferencial:hover{
     opacity: 50%;
