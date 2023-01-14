@@ -194,7 +194,10 @@ osea 45 deg back y usar varios colores --> consultar documentacion  */
 .items{
     line-height: 1.5;
 }
-.items :first-child{
+.items::before{
+    content: "•";
+}
+.items:first-child{
     font-weight: bold;
 }
 .diferenciales{
